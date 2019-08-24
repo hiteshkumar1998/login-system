@@ -5,11 +5,11 @@ include("header.php");
 	<?php 
 		if(isset($_SESSION['userId']))
 		{
-			echo "<p>You are logged in</p>";
+			echo "<h2 class='text-center text-success'>You are logged in</h2>";
 		}
 		else
 		{
-			echo "<p>You are logged out</p>";
+			echo "<h2 class='text-center text-danger'>You are logged out</h2>";
 		}
 
 	?>
